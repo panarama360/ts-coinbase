@@ -1,6 +1,11 @@
 {
-  "name": "coinbase-ts",
-  "version": "1.0.0",
+  "name": "ts-coinbase",
+  "version": "0.0.1",
+  "author": "Ivan Surkov <panarama360@gmail.com>",
+  "main": "build/index.js",
+  "typings": "build/types/index.d.ts",
+  "repository": "git@github.com:panarama360/ts-coinbase",
+
   "dependencies": {
     "axios": "^0.18.0",
     "query-string": "^6.4.2"

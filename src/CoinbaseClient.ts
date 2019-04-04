@@ -8,6 +8,7 @@ import * as QueryString from 'query-string';
 import {Address} from "./response/Address";
 import {Transaction} from "./response/Transaction";
 import {SendParam} from "./SendParam";
+import {Account} from "./response/Account";
 export class CoinbaseClient {
     private client: AxiosInstance;
     constructor(private secret: string, private key: string){
